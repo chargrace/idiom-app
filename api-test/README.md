@@ -1,4 +1,4 @@
-Name: Chinese idiom study app
+Name: Chinese idiom study app (Still in Progress)
 
 This project aims to create a personal Chinese language learning app dedicated to Chinese Idioms.
 
@@ -20,6 +20,7 @@ Future iterations will include:
 -Cards will have a clickable save option on them
 -Page will have a navigation panel which allows users to navigate to their favourites page
 -More user-friendly and sleek CSS styling
+-Getting started section of README.md file
 
 Stretch goal:
 
