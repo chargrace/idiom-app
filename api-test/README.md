@@ -1,36 +1,26 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Name: Chinese idiom study app
 
-## Getting Started
+This project aims to create a personal Chinese language learning app dedicated to Chinese Idioms.
 
-First, run the development server:
+Problem statement: Online dictionaries lack extensive entries on chinese idioms and this creates a gap in knowledge for learners.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Solution: A study companion app for Chinese learners to search up idioms from an idiom bank.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Tech Stack:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Current features include:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Idiom bank (Static api)
+- Flashcards rendered onto screen
+  -Page contains form component
 
-## Learn More
+Future iterations will include:
 
-To learn more about Next.js, take a look at the following resources:
+-Functioning search bar that renders cards based on search words
+-Cards will have a clickable save option on them
+-Page will have a navigation panel which allows users to navigate to their favourites page
+-More user-friendly and sleek CSS styling
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Stretch goal:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Flashcard testing game made from saved list of idioms
