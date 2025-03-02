@@ -1,0 +1,8 @@
+.footer {
+    border-radius: 15px;
+    /* background-color: beige; */
+    width:100%;
+    display: flex;
+    padding: 30px;
+    align-self: self-end;
+}

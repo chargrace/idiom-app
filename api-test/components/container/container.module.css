@@ -1,0 +1,26 @@
+.pageWrapper {
+    /* background-color: beige; */
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.cardContainer {
+    display:grid;
+    flex-direction: row;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.idiom {
+    font-size: large;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 30px;
+}
