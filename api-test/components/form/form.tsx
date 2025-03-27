@@ -20,4 +20,5 @@ export default function Form({onSearch}: {onSearch : (query: string) => void}) {
     placeholder='Search here'/>
     <button className={classes.searchButton}type="submit">Search</button>
 </form>
+
 )}

@@ -6,6 +6,7 @@ import Container from '../components/container/container'
 import Form from '../components/form/form'
 import Footer from '../components/footer/footer'
 import {useState} from 'react'
+import Navbar from "@/components/navbar/navbar";
 
 export default function Home() {
   const [data, setData] = useState([])
@@ -24,6 +25,7 @@ export default function Home() {
 
   return (
     <div className={styles.page}>
+      <Navbar />
       <Header />
       <Form onSearch={handleSearch} />
       <Container data={data}/>

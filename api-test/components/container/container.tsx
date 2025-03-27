@@ -1,6 +1,6 @@
 'use client'
 
-import Card from '../card/card'
+import IdiomCard from '../card/card'
 import classes from './container.module.css'
 // import { useEffect, useState } from 'react'
 
@@ -37,7 +37,7 @@ export default function Container ({ data }: CardContainerProps) {
             </div>
             <div className={classes.cardContainer}>
                 {data.map((idiom) => (
-                    <Card 
+                    <IdiomCard 
                     key={idiom.id}
                     id={idiom.id}
                     idiom={idiom.idiom}
