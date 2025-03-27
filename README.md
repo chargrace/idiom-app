@@ -19,16 +19,31 @@ Solution: A study companion app for Chinese learners to search up idioms from an
 # Current features include:
 
 Idiom bank (Static api)
-Flashcards rendered onto screen -Page contains form component
+User input
+Flashcards rendered onto screen 
+
+# Getting started:
+1. Clone repository
+    
+   git clone https://github.com/chargrace/idiom-app.git
+   cd api-test
+   
+2. Install dependencies
+
+   npm install
+   # or
+   yarn install
+
+3. Start development server:
+
+   npm run dev
+
 
 # Future iterations will include:
-
--Functioning search bar that renders cards based on search words 
--Cards will have a clickable save option on them 
--Page will have a navigation panel which allows users to navigate to their favourites page 
+ 
+-Authenticated user sign up and login 
 -More user-friendly and sleek CSS styling 
--Getting started section of README.md file
 
 # Stretch goal:
 
-Flashcard testing game made from saved list of idioms
+-Cards will have a clickable save option on them 
