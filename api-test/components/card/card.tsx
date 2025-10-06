@@ -20,17 +20,11 @@ interface Idiom {
 
 const IdiomCard: React.FC<Idiom> = ({ idiom, en_meaning, zh_meaning}) => {
     return (
-        // <div className={classes.card}>
-        //    <p className={classes.fetchedIdiom}>{idiom}</p>
-        //    <p className={classes.chinese}>{zh_meaning}</p>
-        //    <p className={classes.english}>{en_meaning}</p>
-        // </div>
-        <Card>
+        <Card className={classes.cardOutline}>
   <CardHeader className={classes.card}>
     <CardTitle className={classes.fetchedIdiom}>{idiom}</CardTitle>
-    {/* <CardDescription>Card Description</CardDescription> */}
   </CardHeader>
-  <CardContent>
+  <CardContent className={classes.cardContent}>
     <p className={classes.chinese}>{zh_meaning}</p>
   </CardContent>
   <CardFooter>

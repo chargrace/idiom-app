@@ -13,12 +13,14 @@ export default function Form({onSearch}: {onSearch : (query: string) => void}) {
 
 
     return (
-    <form className={classes.form} onSubmit={handleSubmit}>
-    <input className={classes.searchInput}name="query" 
-    value={query}
-    onChange={(e) => setQuery (e.target.value)} 
-    placeholder='Search here'/>
-    <button className={classes.searchButton}type="submit">Search</button>
-</form>
+      <div className={classes.formContainer}>
+      <form className={classes.form} onSubmit={handleSubmit}>
+        <input className={classes.searchInput} name="query" 
+          value={query}
+          onChange={(e) => setQuery (e.target.value)} 
+          placeholder='Search here'/>
+        <button className={classes.searchButton}type="submit">Search</button>
+      </form>
+      </div>
 
 )}

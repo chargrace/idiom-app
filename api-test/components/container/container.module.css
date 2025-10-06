@@ -12,6 +12,8 @@
     flex-direction: row;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     gap: 20px;
+    min-height: 30%;
+    min-width: 100%;
 }
 
 .idiom {

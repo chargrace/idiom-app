@@ -1,8 +1,7 @@
 .card {
-    width: 320px; /* Adjust width as needed */
+    width: 100%; /* Adjust width as needed */
   background: white;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
   text-align: center;
   display: flex;
@@ -31,4 +30,8 @@
     font-size: 16px;
     color: #444;
     line-height: 1.5;
+}
+
+.cardContent {
+    text-align: left;
 }

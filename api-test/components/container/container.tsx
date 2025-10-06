@@ -17,17 +17,6 @@ interface CardContainerProps {
   }
 
 export default function Container ({ data }: CardContainerProps) {
-    // const [idioms, setIdioms] =useState<Idiom[]>([]);
-
-    // useEffect(() => {
-    //     const fetchIdioms = async () => {
-    //       const response = await fetch('/api/response');
-    //       const data = await response.json();
-    //       setIdioms(data);
-    //     };
-    
-    //     fetchIdioms();
-    //   }, []);
 
 
     return (
